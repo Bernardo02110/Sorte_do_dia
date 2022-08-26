@@ -24,9 +24,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        messages.add("Oi oi o i o i o i oi o i o i o i o i o");
-        messages.add("Ola");
-        messages.add("Nada");
+        messages.add("A vida trará coisas boas se tiver paciência.");
+        messages.add("Não compense na ira o que lhe falta na razão.");
+        messages.add("Não há que ser forte. Há que ser flexível.");
+        messages.add("Siga os bons e aprenda com eles.");
+        messages.add("Nós somos o que pensamos.");
+        messages.add("Deixe de lado as preocupações e seja feliz.");
+        messages.add("O nosso primeiro e último amor é… o amor-próprio.");
+        messages.add("Você é do tamanho do seu sonho.");
+        messages.add("O amor está sempre mais próximo do que você imagina.");
+        messages.add("Se você se sente só é porque construiu muros ao invés de pontes.");
+        messages.add("Espere pelo mais sábio dos conselhos: o tempo.");
+        messages.add("Acredite em milagres, mas não dependa deles.");
+        messages.add("Você sempre será a sua melhor companhia!");
+        messages.add("A inspiração vem dos outros. A motivação vem de dentro de nós.");
+        messages.add("A solidão é a sorte de todos os espíritos excepcionais.");
+
 
         textViewtitle = findViewById(R.id.textView_title);
         buttonAction = findViewById(R.id.button_Action);

@@ -4,43 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D5D7D8"
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/textView_title"
-        android:layout_width="185dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="113dp"
-        android:layout_marginTop="124dp"
-        android:layout_marginEnd="113dp"
-        android:background="#091F40"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textColor="#D5D7D8"
-        android:textSize="20sp"
-        android:typeface="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_Action"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="106dp"
-        android:layout_marginEnd="106dp"
-        android:layout_marginBottom="136dp"
-        android:backgroundTint="#091F40"
-        android:text="Click me!"
-        android:textAlignment="center"
-        android:textColor="#D5D7D8"
-        android:textColorHighlight="#1A36D3"
-        android:textIsSelectable="false"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="147dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/click_me"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="113dp"
+        android:background="@drawable/custom_button"
+        android:keyboardNavigationCluster="false"
+        android:text="@string/textview"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
